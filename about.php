@@ -6,7 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="assets/nav.css">
-    <link rel="stylesheet" href="assets/aboutStyle.css">
+    <link rel="stylesheet" href="assets/abouStyle.css">
     `
     <title>About</title>
 </head>
@@ -24,25 +24,26 @@
 
 <div class="headshot">
     <img src="assets/pictures/headshot.JPG"
-         alt="headshot" width="25%" height="auto">
-    
-</div>
-    
+         alt="headshot" width="100%" height="auto">
 
-<div class="name">
-    <h1>Adriana Dejeu</h1>
 </div>
-<div class="aboutSection">
-    <p>Lorem Ipsum is simply dummy text of the printing and
-        typesetting industry. Lorem Ipsum has been the industry's
-        standard dummy text ever since the 1500s, when an unknown
-        printer took a galley of type and scrambled it to make a
-        type specimen book. It has survived not only five centuries,
-        but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with
-        the release of Letraset sheets containing Lorem Ipsum
-        passages, and more recently with desktop publishing software
-        like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+<div class="rightSection">
+    <div class="name">
+        <h1>Adriana Dejeu</h1>
+    </div>
+    <div class="aboutSection">
+        <p>Lorem Ipsum is simply dummy text of the printing and
+            typesetting industry. Lorem Ipsum has been the industry's
+            standard dummy text ever since the 1500s, when an unknown
+            printer took a galley of type and scrambled it to make a
+            type specimen book. It has survived not only five centuries,
+            but also the leap into electronic typesetting, remaining
+            essentially unchanged. It was popularised in the 1960s with
+            the release of Letraset sheets containing Lorem Ipsum
+            passages, and more recently with desktop publishing software
+            like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    </div>
 </div>
 </body>
-</html><?php
+</html>
