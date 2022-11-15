@@ -1,0 +1,68 @@
+body {
+    background-color: #181510;
+}
+
+
+.container h2 {
+    clear: left;
+}
+
+.container {
+    /*background-color: ;*/
+    /*width: 300px;*/
+    /*min-height: 300px;*/
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* position the div in center */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.title {
+    color: #cbb682;
+}
+
+
+.title h1 {
+    float: left;
+    font-size: 500%;
+    font-family: myFont;
+}
+
+.title h2 {
+    clear: left;
+    font-size: 400%;
+    font-family: myFont2;
+}
+
+@font-face {
+    font-family: "myFont";
+    src: url('fonts/Roschild-owAjB.ttf');
+    src: url('fonts/Roschild-owAjB.ttf') format('embedded-opentype'),
+    url('fonts/Roschild-owAjB.ttf') format('woff2'),
+    url('fonts/Roschild-owAjB.ttf') format('woff'),
+    url('fonts/Roschild-owAjB.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "myFont2";
+    src: url('fonts/MountainSignature-lgWJZ.ttf');
+    src: url('fonts/MountainSignature-lgWJZ.ttf') format('embedded-opentype'),
+    url('fonts/MountainSignature-lgWJZ.ttf') format('woff2'),
+    url('fonts/MountainSignature-lgWJZ.ttf') format('woff'),
+    url('fonts/MountainSignature-lgWJZ.ttf') format('truetype');
+}
+
+.roschild {
+    font-family: myFont;
+}
+
+.mountainFont {
+    font-family: myFont2;
+}

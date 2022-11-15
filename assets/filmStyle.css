@@ -1,0 +1,28 @@
+body {
+    background-color: #181510;
+}
+@font-face {
+    font-family: "myFont";
+    src: url('fonts/Roschild-owAjB.ttf');
+    src: url('fonts/Roschild-owAjB.ttf') format('embedded-opentype'),
+    url('fonts/Roschild-owAjB.ttf') format('woff2'),
+    url('fonts/Roschild-owAjB.ttf') format('woff'),
+    url('fonts/Roschild-owAjB.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "myFont2";
+    src: url('fonts/MountainSignature-lgWJZ.ttf');
+    src: url('fonts/MountainSignature-lgWJZ.ttf') format('embedded-opentype'),
+    url('fonts/MountainSignature-lgWJZ.ttf') format('woff2'),
+    url('fonts/MountainSignature-lgWJZ.ttf') format('woff'),
+    url('fonts/MountainSignature-lgWJZ.ttf') format('truetype');
+}
+
+.roschild {
+    font-family: myFont;
+}
+
+.mountainFont {
+    font-family: myFont2;
+}
