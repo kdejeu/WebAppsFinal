@@ -3,30 +3,35 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
-    opacity: 50%;
+    opacity: 80%;
     left: 0;
     font-family: myFont;
     font-weight: bold;
+
 }
-nav ul{
+
+nav ul {
     list-style: none;
 }
+
 nav ul li {
     float: left;
     width: 16.66%;
 }
 
-nav a{
-    float: left;
+nav a {
     display: block;
     text-align: center;
     text-decoration: none;
-    padding: 30px;
     color: #181510;
+    padding: 20px;
 }
-nav a:hover{
+
+nav a:hover {
     background-color: #cba95f;
+
 }
+
 /*nav.shift ul li a {*/
 /*    position:relative;*/
 /*    z-index: 1;*/
@@ -56,7 +61,6 @@ nav a:hover{
 /*    visibility: visible;*/
 /*    height: 100%;*/
 /*}*/
-
 
 
 /*!* Keyframes *!*/

@@ -6,14 +6,14 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="assets/nav.css">
-    <link rel="stylesheet" href="assets/abouStyle.css">
+    <link rel="stylesheet" href="assets/aboutStyle.css">
     `
     <title>About</title>
 </head>
 <body>
 <nav>
     <ul>
-        <a href="index.php" title="Home">HOME</a></li>
+        <li><a href="index.php" title="Home">HOME</a></li>
         <li><a href="about.php" title="About">ABOUT</a></li>
         <li><a href="photo.php" title="Photo">PHOTO</a></li>
         <li><a href="film.php" title="Film">FILM</a></li>
