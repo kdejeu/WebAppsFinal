@@ -1,7 +1,17 @@
 body {
-    background-color: #181510;
+    /*background-color: #181510;*/
 }
-
+#video {
+    z-index: -1;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    /*object-fit: cover;*/
+    /*height: 93%;*/
+    /*width: 100%;*/
+    min-width: 100%;
+    min-height: 80%;
+}
 
 .container h2 {
     clear: left;

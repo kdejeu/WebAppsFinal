@@ -13,7 +13,7 @@
 
 <nav>
     <ul>
-        <a href="index.php" title="Home">HOME</a></li>
+        <li><a href="index.php" title="Home">HOME</a></li>
         <li><a href="about.php" title="About">ABOUT</a></li>
         <li><a href="photo.php" title="Photo">PHOTO</a></li>
         <li><a href="film.php" title="Film">FILM</a></li>
