@@ -23,7 +23,9 @@ body {
     opacity: 0.7;
 }
 
+/*BACK TO TOP BUTTON*/
 
+/*CUSTOM FONT*/
 @font-face {
     font-family: "myFont";
     src: url('fonts/Roschild-owAjB.ttf');

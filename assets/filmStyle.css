@@ -1,6 +1,100 @@
 body {
     background-color: #181510;
+    font-family: myFont;
+    color: #cbb682;
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50%, 2fr));
+    /*border: 2px solid red;*/
+}
+
+.container-element {
+    display: grid;
+    grid: auto / repeat(2, 1fr);
+    gap: 8px;
+}
+
+.grid-item {
+    padding: 1rem;
+    font-size: 30px;
+    text-align: center;
+    grid-column: span 1;
+}
+
+.container-element .grid-item:nth-child(6n),
+.container-element .grid-item:nth-child(6n-1) {
+    grid-column: span 1;
+}
+
+.centered-element {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #cbb682;
+}
+
+/*.video-wrapper {*/
+/*    border: 2px red solid;*/
+/*}*/
+
+/*.video-wrapper video {*/
+/*    width: 100%;*/
+/*}*/
+
+.vid1 {
+    width: 100%;
+    /*margin: 10px 33% 10px 0%;*/
+}
+
+.vid1 video {
+    width: 100%;
+}
+
+.grid-item h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.vid2 {
+    width: 100%;
+    /*float: right;*/
+    margin: 10px 0 10px 0;
+    /*border: 2px yellow solid;*/
+}
+
+.vid2 video {
+    /*margin: 10px 0 10px 33%;*/
+    width: 100%;
+}
+
+.vid2 p {
+    /*float: left;*/
+    margin: 0 90% 0 0;
+    text-align: center;
+    /*border: 2px red solid;*/
+    top: 50%;
+}
+
+.vid3 {
+    /*float: left;*/
+    margin: 10px 33% 10px 0%;
+    width: 100%;
+    /*border: 2px GREEN solid;*/
+}
+
+.vid3 video {
+    width: 100%;
+}
+
+/*CUSTOM FONT*/
 @font-face {
     font-family: "myFont";
     src: url('fonts/Roschild-owAjB.ttf');

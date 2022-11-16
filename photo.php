@@ -50,5 +50,6 @@
     <img src="assets/pictures/EG0A9710.jpg">
     <img src="assets/pictures/EG0A9696.jpg">
 </div>
+
 </body>
 </html>

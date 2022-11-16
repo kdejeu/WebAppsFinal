@@ -10,7 +10,7 @@
 <body>
 <nav>
     <ul>
-        <li><a href="index.php" title="Home">D|C</a></li>
+        <li><a href="index.php" title="Home">D | C</a></li>
         <li><a href="about.php" title="About">ABOUT</a></li>
         <li><a href="photo.php" title="Photo">PHOTO</a></li>
         <li><a href="film.php" title="Film">FILM</a></li>
