@@ -21,20 +21,27 @@
         <li><a href="info.php" title="Info">INFO</a></li>
     </ul>
 </nav>
+<div class="form-wrapper">
+    <div class="centered-element">
+        <h1>Lets work together</h1><br>
+    </div>
+    <!--    <div class="centered-element">-->
+    <!--        <a class="button1" href="contact-form-handler.php"> Form</a><br>-->
+    <!--    </div>-->
 
-<h1>Lets work together</h1>
-<form>
 
-</form>
-
-<div id="socials">
-    <p>adriana@dejeucrew.com</p>
-    <p>@dejeu.crew</p>
 </div>
-
 <div id="calendar">
-    <h2>Check my availibility</h2>
-    <?php ?>
+    <div class="centered-element">
+        <h2>Check my availibility</h2><br>
+    </div>
+    <div class="square-embed">
+        <!-- Start Square Appointments Embed Code -->
+        <script src='https://squareup.com/appointments/buyer/widget/bc3uy71vc0cybk/LH8KY3C9N4Q10.js'>
+
+        </script><!-- End Square Appointments Embed Code -->
+    </div>
 </div>
+
 </body>
 </html>

@@ -1,6 +1,51 @@
 body {
     background-color: #181510;
+    /*border: 2px solid blue;*/
+    margin-top: 8%;
+    font-family: myFont;
+    color: #cbb682;
+    /*height: 90vh;*/
 }
+
+/*.button1 {*/
+/*    background-color: #181510;*/
+/*    color: #cbb682;*/
+/*    border: 4px solid #cbb682;*/
+/*    border-radius: 5px;*/
+/*    font-size: 20px;*/
+/*    padding: 10px 15px 10px 15px;*/
+/*    text-align: center;*/
+/*    font-family: myFont;*/
+/*    text-decoration: none;*/
+/*}*/
+.square-embed{
+    margin: 5% 10% 5% 10%;
+    height: 945px;
+}
+/*Horizontal Centering*/
+.centered-element {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/*.form-wrapper {*/
+/*    !*margin-top: 15%;*!*/
+/*    border: 2px solid red;*/
+/*}*/
+
+/*.form-wrapper h1 {*/
+/*    color: #cbb682;*/
+/*}*/
+
+/*form {*/
+/*    background-color: #d9d9d9;*/
+/*    height: 45vh;*/
+/*}*/
+
 @font-face {
     font-family: "myFont";
     src: url('fonts/Roschild-owAjB.ttf');

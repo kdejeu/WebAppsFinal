@@ -32,12 +32,12 @@
     </div>
     <div class="grid-item">
         <div class="centered-element">
-            <h1>LOREM & IPSUM2</h1>
+            <h1>LOREM & IPSUM</h1>
         </div>
     </div>
     <div class="grid-item">
         <div class="centered-element">
-            <h1>LOREM & IPSUM3</h1>
+            <h1>LOREM & IPSUM</h1>
         </div>
     </div>
     <div class="grid-item">
@@ -60,7 +60,7 @@
     </div>
     <div class="grid-item">
         <div class="centered-element">
-            <h1>LOREM & IPSUM6</h1>
+            <h1>LOREM & IPSUM</h1>
         </div>
     </div>
 </div>
