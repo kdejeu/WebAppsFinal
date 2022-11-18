@@ -1,0 +1,11 @@
+version: '3'
+services:
+  webserver:
+    build: .
+    ports:
+      - "50127:80"
+    volumes:
+      - ./:/var/www/html
+      - ./:/var/html/www/FinalProject
+    environment:
+      XDEBUG_CONFIG: remote_host=host.docker.internal
