@@ -1,7 +1,7 @@
 body {
     background-color: #181510;
     height: 100vh;
-    border: 2px solid red;
+    border: 2px solid blue;
 }
 @font-face {
     font-family: "myFont";
