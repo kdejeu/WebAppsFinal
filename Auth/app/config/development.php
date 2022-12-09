@@ -26,7 +26,7 @@ return[
         'smtp_secure' => 'tls',
         'host' => 'smpt.gmail.com',
         'username' => 'kevindejeu@GMAIL.COM',
-        'password' => 'Romania!2',
+        'password' => '********',
         'port'=> 587,
         'html'=> true,
     ],
